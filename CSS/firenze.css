@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.ilDuomo-bg {
+  background-image: url("https://images.pexels.com/photos/4179480/pexels-photo-4179480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Style path al text del homepage, y al main de "about" */
+body div div,
+body div main,
+body div h2 {
+  text-align: center;
+}
+
+.about-btn {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #0000003b;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s ease-out;
+}
+
+.about-btn:hover {
+  background-color: #00000061;
+  box-shadow: 2px 2px 5px #00000061;
+  transition-duration: 0.5s;
+}
+
+.navbar {
+  text-align: center; /* Center align the entire navbar */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin: 0; /* Add spacing between items (adjust as needed) */
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333; /* Define link color */
+  padding: 10px 20px; /* Add padding to the links (adjust as needed) */
+  border: 1px solid #333; /* Add a border around each link (optional) */
+  border-radius: 5px; /* Add rounded corners to the links (optional) */
+  transition: 0.5s ease-out;
+}
+
+.navbar ul li a:hover {
+  background-color: #33333369; /* Change background color on hover (optional) */
+  box-shadow: 2px 2px 5px #33333369;
+  color: #000000; /* Change text color on hover (optional) */
+  transition-duration: 0.4s;
+}
+
+/* Existing CSS */
+.navbar ul li.active a {
+  background-color: #33333369;
+  color: #000000;
+  transition-duration: 0.4s;
+}
+
+@media (max-width: 849px) {
+  .navbar ul {
+      text-align: center; /* Center align list items when screen size is smaller */
+      padding: 0;
+      align-items: center;
+  }
+
+  .navbar ul li {
+      margin: 15px; /* Add vertical spacing between items (adjust as needed) */
+      text-align: center;
+      margin-bottom: 10px;
+  }
+}
+
+main {
+  background-color: #fcfcfcb4;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 900px;
+}
+
+table {
+  background-color: #fcfcfcb4;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+
+ol {
+  list-style-type: upper-roman;
+  background-color: #fcfcfcb4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+li a {
+  color: #626794;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.entertainment img {
+  transition: -webkit-clip-path 0.25s ease-out;
+  transition: clip-path 0.25s ease-out;
+  transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+  -webkit-clip-path: inset(-1px);
+  clip-path: inset(-1px);
+}
+.entertainment:hover img {
+  -webkit-clip-path: inset(2rem);
+  clip-path: inset(2rem);
+}

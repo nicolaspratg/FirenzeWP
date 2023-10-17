@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/firenze.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/HTML/index.html">Inicio</a></li>
+            <li><a href="/HTML/about.html">Sobre Florencia</a></li>
+            <li><a href="/HTML/visits_activities.html">Actividades</a></li>
+            <li><a href="/HTML/entertainment.html">Entretenimiento</a></li>
+            <li><a href="/HTML/accommodation.html">Alojamiento</a></li>
+            <li class="active"><a href="/HTML/firenzeform.html">Contáctenos</a></li>
+        </ul>
+    </div>
+      <form action="mailto:nicoprat@hotmail.com" method="post">
+        <table width="600" cellspacing="2" cellpadding="2" style="border: none;">
+            <tr>    
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="textarea">Mensaje:</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" required  placeholder="Escribe tu mensaje aquí"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        <table>
+      </form>
+</body>
+</html>
