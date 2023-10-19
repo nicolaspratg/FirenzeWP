@@ -4,6 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Background styling */
 .ilDuomo-bg {
   background-image: url("https://images.pexels.com/photos/4179480/pexels-photo-4179480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
@@ -11,6 +12,7 @@ body {
   height: 100vh;
   padding: 20px;
 }
+/* Background styling */
 
 /* Style path al text del homepage, y al main de "about" */
 body div div,
@@ -19,6 +21,7 @@ body div h2 {
   text-align: center;
 }
 
+/* About button from index page */
 .about-btn {
   position: absolute;
   top: 30%;
@@ -36,7 +39,9 @@ body div h2 {
   box-shadow: 2px 2px 5px #00000061;
   transition-duration: 0.5s;
 }
+/* About button from index page */
 
+/* Full navbar styling. Responsiveness, hover and active. */
 .navbar {
   text-align: center; /* Center align the entire navbar */
 }
@@ -89,7 +94,9 @@ body div h2 {
       margin-bottom: 10px;
   }
 }
+/* Full navbar styling. Responsiveness, hover and active. */
 
+/* Text box styling from the "Sobre Florencia" section */
 main {
   background-color: #fcfcfcb4;
   border-radius: 10px;
@@ -97,6 +104,7 @@ main {
   padding: 20px;
   max-width: 900px;
 }
+/* Text box styling from the "Sobre Florencia" section */
 
 table {
   background-color: #fcfcfcb4;
@@ -122,9 +130,9 @@ li a:hover {
 }
 
 .entertainment img {
-  transition: -webkit-clip-path 0.25s ease-out;
-  transition: clip-path 0.25s ease-out;
-  transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+  transition: -webkit-clip-path 0.4s ease-out;
+  transition: clip-path 0.4s ease-out;
+  transition: clip-path 0.4s ease-out, -webkit-clip-path 0.4s ease-out;
   -webkit-clip-path: inset(-1px);
   clip-path: inset(-1px);
 }
