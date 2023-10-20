@@ -15,9 +15,7 @@ body {
 /* Background styling */
 
 /* Style path al text del homepage, y al main de "about" */
-body div div,
-body div main,
-body div h2 {
+.text-center {
   text-align: center;
 }
 
@@ -98,7 +96,6 @@ body div h2 {
 
 /* Text box styling from the "Sobre Florencia" section */
 main {
-  background-color: #fcfcfcb4;
   border-radius: 10px;
   margin: 0 auto;
   padding: 20px;
@@ -112,14 +109,17 @@ table {
   margin: 0 auto;
 }
 
-
 ol {
   list-style-type: upper-roman;
-  background-color: #fcfcfcb4;
-  border-radius: 10px;
-  padding: 20px;
 }
 
+.translucent-bg {
+  background-color: #fcfcfcb4;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* Styling of activities links */
 li a {
   color: #626794;
   text-decoration: none;
@@ -128,15 +128,20 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
+/* Styling of activities links */
 
 .entertainment img {
-  transition: -webkit-clip-path 0.4s ease-out;
-  transition: clip-path 0.4s ease-out;
   transition: clip-path 0.4s ease-out, -webkit-clip-path 0.4s ease-out;
   -webkit-clip-path: inset(-1px);
   clip-path: inset(-1px);
+  border-radius: 10px;
 }
+
 .entertainment:hover img {
-  -webkit-clip-path: inset(2rem);
-  clip-path: inset(2rem);
+  -webkit-clip-path: inset(1rem);
+  clip-path: inset(1rem);
+}
+
+.entertainment-td {
+  padding: 0px 10px 10px 10px;
 }
