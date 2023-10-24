@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <title>Document</title>
 </head>
-<body>
+<body class="ilDuomo-bg">
     <div class="navbar">
         <ul>
             <li><a href="/HTML/index.html">Inicio</a></li>
@@ -18,32 +18,38 @@
             <li class="active"><a href="/HTML/firenzeform.html">Contáctenos</a></li>
         </ul>
     </div>
-      <form action="mailto:nicoprat@hotmail.com" method="post">
-        <table width="600" cellspacing="2" cellpadding="2" style="border: none;">
-            <tr>    
-                <td>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email"required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="textarea">Mensaje:</label>
-                    <textarea name="textarea" id="textarea" cols="30" rows="10" required  placeholder="Escribe tu mensaje aquí"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" value="Enviar">
-                </td>
-            </tr>
-        <table>
-      </form>
+        <form action="mailto:nicoprat@hotmail.com" method="post">
+            <table width="600" cellspacing="2" cellpadding="2" style="border: none;" class="contact-table">
+                <tr>    
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" required  placeholder="Escribe tu mensaje aquí"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            <table>
+        </form>
+      <footer class="text-center">
+            <div>
+                <p>
+                    Copyright &copy; Nicolás de Prat Gay 2023
+                </p>
+            </div>
+      </footer>
 </body>
 </html>
